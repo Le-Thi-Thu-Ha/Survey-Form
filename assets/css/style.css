@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: var(--color-white);
+  direction: ltr;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(../images/bg-images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+input, button, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: var(--size-input);
+  line-height: inherit;
+}
+
+#header {
+  text-align: center;
+  padding: 3rem;
+}
+
+.header_title {
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+
+.header_descriptions {
+  font-size: var(--size-label);
+  font-style: italic;
+  padding: 8px;
+}
+
+#form-survey {
+  min-width: 48rem;
+  padding: 2.5rem;
+  background-color: var(--color-darkblue-alpha);
+  border-radius: 5px;
+}
+
+.form-survey-details {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  font-size: var(--size-label);
+}
+
+.input-your-infor {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: var(--color-input);
+  margin-top: 0.5rem;
+}
+
+.label_recommend {
+  font-size: var(--size-label);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.label-improved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.recommened, .input-checkbox {
+  margin-right: 1rem;
+  min-height: 1.75rem;
+  min-width: 1.75rem;
+}
+
+.any {
+  font-size: var(--size-label);
+  margin-bottom: 0.5rem;
+}
+
+.your_comment {
+  width: 100%;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+.submit {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 4px;
+  color: var(--color-white);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.smaller {
+  font-size: var(--size-input);
+  font-weight: 200;
+}
