@@ -1,0 +1,50 @@
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  .container {
+    max-width: 54rem;
+  }
+  #form-survey {
+    min-width: 36rem;
+    padding: 1rem;
+  }
+  #header .header_title {
+    font-size: 2.3rem;
+  }
+  #header .header_descriptions {
+    font-size: 1rem;
+  }
+  *, input, #form-survey label, #form-survey p, #form-survey strong, button, textarea, select {
+    font-size: 1.3rem;
+  }
+  .wrapper {
+    padding: 5px;
+  }
+  input[type=radio], input[type=checkbox] {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+@media only screen and (max-width: 47.9375em) {
+  .container {
+    max-width: 30rem;
+  }
+  #form-survey {
+    min-width: 20rem;
+    padding: 5px;
+  }
+  .wrapper {
+    padding: 1rem;
+  }
+  *, input, #form-survey label, #form-survey p, #form-survey strong, button, textarea, select {
+    font-size: 1rem;
+  }
+  #header .header_title {
+    font-size: 2rem;
+  }
+  #header .header_descriptions {
+    font-size: 1rem;
+  }
+  input[type=radio], input[type=checkbox] {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+}

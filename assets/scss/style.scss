@@ -50,6 +50,11 @@ input, button, select, textarea {
     line-height: inherit;
 }
 
+textarea {
+    resize: vertical;
+}
+
+
 #header {
     text-align: center;
     padding: 3rem;
